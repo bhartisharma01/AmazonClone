@@ -1,0 +1,110 @@
+.checkout__page {
+    margin: 20px 13px 20px 11px;
+}
+.checkout__left, .checkout__right {
+    background: #fff;
+    padding: 20px;
+}
+.shopping__cart__heading {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+.shopping__select{
+    margin: 0;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #007185;
+}
+.checkout__price__heading{
+        padding: 0 0 6px;
+        margin:0;
+        display: flex;
+        border-bottom: 1px solid #c6c6c6;
+        justify-content: flex-end;
+        font-size: 14px;
+    line-height: 20px;
+    color: #565959;
+}
+.shopping__list {
+        display: flex;
+        padding: 12px 0;
+        border-bottom: 1px solid #c6c6c6;
+}
+.shopping__product__name {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 400;
+    margin: 0;
+}
+.in__stock {
+    color: #007600;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 4px 0;
+}
+.free_shipping {
+    font-size: 12px;
+    line-height: 16px;
+    color: #565959;
+    margin: 5px 0;
+}
+.checkout__quantity{
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgb(15 17 17 / 15%);
+    background: #F0F2F2;
+    padding: 4px 8px;
+    margin: 10px 17px 10px 0;
+}
+.product__delete, .product__save, .product__more{
+    margin: 0;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #007185;
+    border-left: 1px solid #c6c6c6;
+    padding: 0 13px;
+}
+.product__delete:hover, .product__save:hover, 
+.product__more:hover, .shopping__select:hover{
+    color:#c7511f
+
+}
+.price_box{
+    display: flex;
+    justify-content: flex-end;
+}
+.product__price, .subtotal__price {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.product__subtotal {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+.subtotal_details {
+    display: flex;
+    margin-bottom: 20px;
+}
+.buy__now__btn {
+    display: grid;
+}
+.buy__btn {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #FFD814;
+    border-color: #FCD200;
+    padding: 9px 10px;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+}
